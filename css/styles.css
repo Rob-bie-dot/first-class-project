@@ -224,8 +224,8 @@ nav {
 
 footer {
    
-    background-color: darkblue;
-    color: white;
+    background-color: rgba(0, 0, 139, 0.801);
+    color: wheat;
 }
 
 
@@ -276,17 +276,37 @@ footer {
 
     
 }
-.footer-newsletter{
 
-}
-
-.footer-links{
-
-}
 
 
 
 .footer-logo{
 padding-left: 5%;
 }
+
+
+
+.send-button{
+    background-color: deeppink;
+    color: wheat;
+    border: none;
+    border-radius: 2px;
+    width: 60px;
+    height:35px;
+    margin-bottom: 20px;
+
+}
+
+.email-space{
+   
+   border: none;
+   border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
 
