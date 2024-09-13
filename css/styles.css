@@ -4,7 +4,7 @@
 }
 
 .bgcolor {
-    background-color: wheat;
+    background-color: rgba(245, 222, 179, 0.534);
 }
 
 nav {
@@ -87,8 +87,15 @@ nav {
 
 
 .main-section {
-    height: 200vh;
+    height: 300vh;
 }
+
+.main-section1 {
+    height: 150vh;
+    background-color: rgba(245, 222, 179, 0.705);
+    margin-bottom: 50px;
+}
+
 
 .first-section {
     color: #243D84;
@@ -131,7 +138,6 @@ nav {
 
 
 .second-section {
-    display: flex;
     flex-direction: row;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -221,9 +227,27 @@ nav {
 }
 
 
+.main-section2 {
+    height: 150vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 0px;
+    margin-left: 80px;
+    margin-right: 80px;
+margin-top: 70px;
+}
+
+.image-container img {
+    width: 70%;
+    height: 60%;
+}
+
+
+
 
 footer {
-   
+
     background-color: rgba(0, 0, 139, 0.801);
     color: wheat;
 }
@@ -239,8 +263,8 @@ footer {
     padding-bottom: 50px;
 
 }
- 
-.flex-footer h3{
+
+.flex-footer h3 {
     font-size: 25px;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
@@ -252,7 +276,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 2;
     list-style: none;
-    
+
 }
 
 
@@ -260,53 +284,51 @@ footer {
     border-top: 1px solid;
     padding-top: 5px;
     padding-bottom: 20px;
-    
-    
+
+
 }
+
 footer {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 10%;
     padding-right: 10%;
-    
+
 }
 
 .footer-office {
     padding-left: 5%;
 
-    
+
 }
 
 
 
 
-.footer-logo{
-padding-left: 5%;
+.footer-logo {
+    padding-left: 5%;
 }
 
 
 
-.send-button{
+.send-button {
     background-color: deeppink;
     color: wheat;
     border: none;
     border-radius: 2px;
     width: 60px;
-    height:35px;
+    height: 35px;
     margin-bottom: 20px;
 
 }
 
-.email-space{
-   
-   border: none;
-   border-radius: 2px;
+.email-space {
+
+    border: none;
+    border-radius: 2px;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 20px;
     padding-left: 2px;
     padding-right: 2px;
 }
-
-
-
